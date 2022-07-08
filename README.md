@@ -28,4 +28,7 @@ Autoshrink 를 Minimum Font Size 로 한후 최소 라인 수를 결정 하여 �
     
     예를 들어  3초 후 알람이 울리고 다음 7초 짜리를 하면 3초부터 3....4...5...6..7 알람! 이런식이다 . 
     이는 내 착각이였다. timer.invalidate() 가 타이머를 종료 시켜준다 하여 저 지나는 초 마저 0으로 초기화 하는줄 알았다. 
-    끝나고 나면 secondPassed 를 ㅔ\0 으로 초기화 하면 정상적으로 작동한다. 
+    끝나고 나면 secondPassed 를 ㅔ\0 으로 초기화 하면 정상적으로 작동![Simulator Screen Recording - iPhone 11 - 2022-07-08 at 23 05 18](https://user-images.githubusercontent.com/101173361/178007991-dee43663-8253-4b43-9e2a-c163dbd451f6.gif)
+한다. 
+
+
