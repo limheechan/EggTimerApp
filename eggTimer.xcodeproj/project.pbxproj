@@ -13,6 +13,7 @@
 		D7679C2028781B1500821CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7679C1E28781B1500821CC7 /* Main.storyboard */; };
 		D7679C2228781B1600821CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7679C2128781B1600821CC7 /* Assets.xcassets */; };
 		D7679C2528781B1600821CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7679C2328781B1600821CC7 /* LaunchScreen.storyboard */; };
+		D7679C32287822C700821CC7 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7679C31287822C700821CC7 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		D7679C2128781B1600821CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7679C2428781B1600821CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7679C2628781B1600821CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7679C2E2878210400821CC7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D7679C31287822C700821CC7 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 		D7679C0C28781B1500821CC7 = {
 			isa = PBXGroup;
 			children = (
+				D7679C2E2878210400821CC7 /* README.md */,
 				D7679C1728781B1500821CC7 /* eggTimer */,
 				D7679C1628781B1500821CC7 /* Products */,
 			);
@@ -63,6 +67,7 @@
 				D7679C2128781B1600821CC7 /* Assets.xcassets */,
 				D7679C2328781B1600821CC7 /* LaunchScreen.storyboard */,
 				D7679C2628781B1600821CC7 /* Info.plist */,
+				D7679C31287822C700821CC7 /* alarm_sound.mp3 */,
 			);
 			path = eggTimer;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 			files = (
 				D7679C2528781B1600821CC7 /* LaunchScreen.storyboard in Resources */,
 				D7679C2228781B1600821CC7 /* Assets.xcassets in Resources */,
+				D7679C32287822C700821CC7 /* alarm_sound.mp3 in Resources */,
 				D7679C2028781B1500821CC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
